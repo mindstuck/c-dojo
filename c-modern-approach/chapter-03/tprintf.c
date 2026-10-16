@@ -13,5 +13,18 @@ int main(void)
 
     printf("\a\nab\bc\n");
 
+    // scanf
+    int a, b;
+    float c, d;
+    scanf("%d%d%f%f", &a, &b, &c, &d);
+    printf("Input: %d %d %f %f", a, b, c, d);
+
+    // what will "20-17.3-7.0e4" user input produce?
+    int e;
+    float f, g;
+    scanf("%d%d%f%f", &e, &f, &g);
+
+    printf("%d | %f | %f", e, f, g);
+
     return 0;
 }
